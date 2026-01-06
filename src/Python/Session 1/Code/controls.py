@@ -19,7 +19,7 @@ class Controls:
                     if confirm in ["yes", "y"]:
                         USER_DATA ["username"] = ver_x
                         print ("✅ Username Changed Successfuly.")
-                        return USER_DATA ["username"]
+                        return ver_x
                         break
                     else:
                         print("❌ Username change cancelled.")
@@ -47,7 +47,7 @@ class Controls:
                     if confirm in ["yes", "y"]:
                         USER_DATA["password"] = ver_x_2
                         print ("✅ Password Changed Successfuly.")
-                        return USER_DATA["password"]
+                        return ver_x_2
                         break
                     else:
                         print("❌ Password change cancelled.")
